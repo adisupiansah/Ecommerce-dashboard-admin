@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 200px;
+    background-color: #40a2e3;
+    padding-top: 60px;
+    float: left;
+  }
+  /* Style untuk item menu */
+  .sidebar ul.navbar-nav li {
+    padding: 10px 15px;
+  }
+  /* Style untuk teks di dalam item menu */
+  .sidebar ul.navbar-nav li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  /* Style untuk teks di dalam item menu ketika dihover */
+  .sidebar ul.navbar-nav li a:hover {
+    color: #272829;
+  }
+  /* Style untuk konten halaman */
+  .content {
+    margin-left: 250px;
+    padding: 20px;
+  }
+
+  /* Home Section */
+  #home h1{
+    margin-top: 50px;
+  }
+
+  /* Input Baarang section */
+  #inputBarang {
+    margin-left: 200px;
+    margin-bottom: 100px;
+  }
+
+  #inputBarang .inputCart{
+    margin-top: 50px;
+  }
+
+ .inputCart .inputProdukJudul{
+  font-size: 30px;
+  margin-bottom: 50px;
+ }
+
+  /* Input Barang Section | Form nama produk */
+  .inputCart .labelNameProduk{
+    font-weight: 600;
+  }
+  .inputCart .inputNameProduk{
+    border: 1px solid #272829;
+    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.2);
+    padding: 8px;
+    border-radius: 8px;
+  }
+
+  /* Inputbarang Section | Form Gambar Produk */
+  .inputCart .labelGambarProduk {
+    font-weight: 600;
+    margin-top: 20px;
+  }
+  .inputCart .inputGambarProduk{
+    border: 1px solid #272829;
+    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.2);
+    padding: 8px;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+
+  /* Inputbarang Section | Form harga Produk */
+  .inputCart .labelHargaProduk {
+    font-weight: 600;
+    margin-top: 20px;
+  }
+  .inputCart .inputHargaProduk{
+    border: 1px solid #272829;
+    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.2);
+    padding: 8px;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+
+  /* Inputbarang Section | Tombol Kirim Form Produk */
+  .inputCart .btn {
+    background-color: #40a2e3;
+    font-weight: 600;
+    color: #f5f7f8;
+    border-radius: 10px;
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+  }
+  .inputCart .btn:hover{
+    background-color: #f5f7f8;
+    color: #40a2e3;
+    border: 2px solid #272829;
+    box-shadow: none;
+  }
+ 
+  /* Input Service*/
+  #inputService {
+    margin-left: 200px;
+    margin-bottom: 100px;
+  }
+  #inputService .service{
+    margin-top: 50px;
+  }
+
+  .service .serviceJudul {
+    font-size: 30px;
+    margin-bottom: 50px;
+  }
+
+  /* Input service | Form isi Kategor Service */
+  .service .labelKategoriService{
+    font-weight: 600;
+  }
+  .service .inputKategoriService{
+    border: 1px solid #272829;
+    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.2);
+    padding: 8px;
+    border-radius: 8px;
+  }
+
+  /* Input Service | Form isi Keterangan Service */
+  .service .labelKeteranganService{
+    font-weight: 600;
+    margin-top: 20px;
+  }
+
+  .service .inputKeteranganService {
+    border: 1px solid #272829;
+    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.2);
+    padding: 70px;
+    border-radius: 10px;
+    margin-top: 20px;
+
+  }
+
+  /* Input Service | Form isi Nomor Service*/
+  .service .labelNomorService{
+    font-weight: 600;
+    margin-top: 20px;
+  }
+
+  .service .inputNomorService{
+    border: 1px solid #272829;
+    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.2);
+    padding: 8px;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+
+  /* Input Service | Form isi Gambar Service */
+  .service .labelGambarService{
+    font-weight: 600;
+    margin-top: 20px;
+  }
+
+  .service .inputGambarService{
+    border: 1px solid #272829;
+    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.2);
+    padding: 8px;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+
+  /* Input service | tombol kririm Form Service */
+  .service .btn{
+    background-color: #40a2e3;
+    font-weight: 600;
+    color: #f5f7f8;
+    border-radius: 10px;
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+  }
+  .service .btn:hover{
+    background-color: #f5f7f8;
+    color: #40a2e3;
+    border: 2px solid #272829;
+    box-shadow: none;
+  }
+
+  /* tables Service */
+  .table-service .table{
+    margin-left: 125px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Style untuk menampilkan toggle button pada layar kecil */
+  @media (max-width: 768px) {
+    .content {
+      margin-left: 0;
+    }
+  }
