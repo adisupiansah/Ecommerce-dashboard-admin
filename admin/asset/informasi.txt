@@ -1,0 +1,5 @@
+folder asset ini untuk menyimpan file gambar ketika di upload
+dan file informasi ini tidak penting hanya bersifat informasi 
+jadi anda bisa menghapus file informasi.txt jika tidak diperlukan
+
+<============= TERIMA KASIH 😊=============>
